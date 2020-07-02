@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mobile.fhi360.covid_19selfscreeningtool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".activities.UserLoginActivity"></activity>
+        <activity android:name=".activities.UpdateUserActivity" />
+        <activity android:name=".SupervisorDashboardActivity" />
+        <activity android:name=".RegisterUserActivity" />
+        <activity android:name=".activities.SupervisorActivity" />
+        <activity android:name=".activities.DetailsActivity" />
+        <activity android:name=".activities.HealthListActivity" />
+        <activity android:name=".activities.DashboardActivity" />
+        <activity android:name=".activities.UserHealthDataActivity" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.HighRiskActivity" />
+        <activity android:name=".activities.HivActivity" />
+        <activity android:name=".activities.LowRiskActivity" />
+        <activity android:name=".activities.MediumRiskActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LoginActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "791951111687",
+    "firebase_url": "https://covid-19-self-screening-tool.firebaseio.com",
+    "project_id": "covid-19-self-screening-tool",
+    "storage_bucket": "covid-19-self-screening-tool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791951111687:android:922b41f53b446be531dca2",
+        "android_client_info": {
+          "package_name": "mobile.fhi360.covid_19selfscreeningtool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791951111687-hnskb31f6om2669ga6dqnp9tpqqhfn6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.fhi360.covid_19selfscreeningtool",
+            "certificate_hash": "090a5039d9f374c3e1d397865d455e6012139a8c"
+          }
+        },
+        {
+          "client_id": "791951111687-ijfdmr2m9o4546mpub2hq6gpe9gauq7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsICt6ZOLOct5ULWQUeRf14Dt24icRbUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791951111687-ijfdmr2m9o4546mpub2hq6gpe9gauq7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

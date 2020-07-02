@@ -1,0 +1,2 @@
+rootProject.name='COVID-19 Self Screening Tool'
+include ':app'
